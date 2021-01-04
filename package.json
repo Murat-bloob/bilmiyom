@@ -1,0 +1,50 @@
+{
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "hello-express",
+  "version": "0.0.1",
+  "description": "A simple Node app built on Express, instantly up and running.",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "canvas": "^2.5.0",
+    "chalk": "^2.4.2",
+    "cleverbot.io": "^1.0.4",
+    "dblapi.js": "^2.3.0",
+    "discord": "^0.8.2",
+    "discord.js": "^11.5.1",
+    "dispatcher": "^0.0.2",
+    "express": "^4.16.4",
+    "ffmpeg": "^0.0.4",
+    "fs": "^0.0.1-security",
+    "funny-words": "^0.1.2",
+    "generate-password": "^1.4.2",
+    "jimp": "^0.6.4",
+    "moment": "^2.24.0",
+    "node-opus": "^0.3.2",
+    "node-superfetch": "^0.1.9",
+    "opusscript": "^0.0.6",
+    "path": "^0.12.7",
+    "quick.db": "^7.0.0-b22",
+    "simple-youtube-api": "^5.2.1",
+    "snekfetch": "^4.0.4",
+    "superagent": "^5.1.0",
+    "tcmb-doviz": "^1.0.5",
+    "ytdl-core": "^0.29.3"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/hello-express"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
